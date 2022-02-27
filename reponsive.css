@@ -1,0 +1,268 @@
+@media only screen and (min-width: 768px) and  (max-width: 992px) {
+  .grid {
+    max-width: 72rem;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-co {
+    display: none;
+  }
+  
+
+  /* menu toggle */
+  .menu-toggle,
+  .close-btn {
+    display: block;
+  }
+ 
+  .navbar-toggler-icon {
+    margin-top: 2rem;
+    display: block;
+    margin-right: 16rem;
+    position: absolute;
+    right: 2rem;
+  }
+  .navbar-toggler-icon img {
+    height: 3rem;
+  }
+  .nav-link {
+    display: block;
+    margin-top: 2rem;
+  }
+  .drop-header {
+    margin-top: 2.5rem;
+  }
+
+  .account-form {
+    position: absolute;
+    padding: 2rem 0;
+    display: block;
+  }
+
+  .account-link_title {
+    padding: 0;
+  }
+  .account-sub-menu {
+
+    left: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    right: auto;
+    top: 0;
+    /* position: absolute; */
+    width: 100%;
+    
+  }
+  .dcm-icon1 {
+    margin-top: 2rem;
+  }
+
+  .welcome {
+     display: flex;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+  }
+
+  .welcome-text {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    
+  }
+  .welcome-button {
+    display: flex;
+  }
+  .welcome-img {
+    padding: 0 2rem;
+  }
+  .welcome-btn1, .welcome-btn2 {
+    padding: 1.4rem 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .about-header {
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+  }
+
+  .about-text-check-wrap {
+    flex-direction: column;
+  }
+
+  .bootstrap-heading {
+    font-size: 2.4rem;
+    
+    line-height: 2.1rem;
+  }
+  .testimonial-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .testimonial-slide-text {
+    padding: 2.4rem 3rem;
+  }
+
+  .stats-heading {
+    font-size: 2.4rem;
+  }
+
+  .stats-wrap {
+    align-items: center;
+  }
+
+  .pricing-text-wrap {
+    width: 100%;
+  }
+  .card-price-body {
+    padding: 4.8rem 1.2rem;
+  }
+  .pricing-text {
+    font-size: 1.9rem;
+  }
+
+  .price-text2 {
+    font-size: 1.9rem;
+    margin: 8rem 0;
+    width: 100%;
+  }
+
+  .faq-item-heading {
+    font-size: 1.7rem;
+  }
+  
+  /* .col-6 {
+    width: 100%;
+  } */
+ 
+  .col-2 {
+    width: 33.333%;
+  }
+
+
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-2 {
+    width: 33.33%;
+  }
+
+  .col-3 {
+    width: 33.33%;
+  }
+
+  .offset {
+    margin-left: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sec11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 50%;
+  }
+  .social-wrap {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  .social-list {
+    padding: 0px;
+  }
+} */
+
+/* @media (min-width: 576px) {
+  .grid {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    max-width: 960px;
+  }
+} */
+
+/* Menu toggle */
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(2);
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+.nav-input {
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+.nav-input2 {
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.nav-input:checked ~ .menu-toggle {
+  transform: scale(1);
+  transform-origin: top right;
+}
+.nav-input2:checked ~ .menu-toggle {
+  transform: scale(0);
+}
+
+.menu-toggle {
+ 
+  z-index: 1000;
+  background-color: white;
+  padding: 3rem;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: scale(0);
+  /* transform: translateX(-100%); */
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+.menu-toggle-landing {
+}
+
+.menu-toggle-wrap {
+  display: flex;
+}
+
+.separate {
+  width: 100%;
+  border-bottom: thin solid #f1f4f8;
+}
+
+.toggle-btn-primary {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 1.7rem;
+  padding: 0.8125rem 1.25rem;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
